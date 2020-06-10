@@ -29,16 +29,16 @@ search would continue normally until the next decrease in accuracy. In the graph
 a distinction between how the search algorithm stops.
 
 ### Results
-![Image of results table when search continues for all features] (https://www.picturepaste.ca/images/2020/06/10/image5050f6ce662c3d38.png)
-![Image of results table when search ends after intitial decrease] (https://www.picturepaste.ca/images/2020/06/10/image1dc824fbb9cab123.png)
+![Image of results table when search continues for all features](https://www.picturepaste.ca/images/2020/06/10/image5050f6ce662c3d38.png)
+![Image of results table when search ends after intitial decrease](https://www.picturepaste.ca/images/2020/06/10/image1dc824fbb9cab123.png)
     When I was running my code, I noticed that the time differences between the forward 
 selection and backward elimination search algorithms were very minimal for the small datasets.
-![Image of runtime of small datasets. Search continues for all features] (https://www.picturepaste.ca/images/2020/06/10/imagec8f4b8c3a95ffb51.png)
-![Image of runtime of small datasets. Search ends after initial decrease.] (https://www.picturepaste.ca/images/2020/06/10/image7a79dfc8348038a8.png)
+![Image of runtime of small datasets. Search continues for all features](https://www.picturepaste.ca/images/2020/06/10/imagec8f4b8c3a95ffb51.png)
+![Image of runtime of small datasets. Search ends after initial decrease.](https://www.picturepaste.ca/images/2020/06/10/image7a79dfc8348038a8.png)
 	  However, the runtime differences between the two search algorithms were much more 
 noticeable for the large datasets.
-![Image of runtime of large datasets. Search continues for all features] (https://www.picturepaste.ca/images/2020/06/10/image334c5b1443f3e750.png)
-![Image of runtime of large datasets. Search ends after intitial decrease] (https://www.picturepaste.ca/images/2020/06/10/imageae0a2ea0b98bdf23.png)
+![Image of runtime of large datasets. Search continues for all features](https://www.picturepaste.ca/images/2020/06/10/image334c5b1443f3e750.png)
+![Image of runtime of large datasets. Search ends after intitial decrease](https://www.picturepaste.ca/images/2020/06/10/imageae0a2ea0b98bdf23.png)
     As shown, the runtime when the search algorithm ends after the initial decrease in 
 percentage is much faster than the same dataset, with the same algorithm but when the search 
 continues for all features. Although stopping the search algorithm on the first initial decrease is 
@@ -53,20 +53,20 @@ Therefore, I believe forward selection produces better results overall.
 	  Changing the stopping condition of the loop is simple and is shown accordingly below 
 (code shown from domain.cpp and applies for both search algorithms).
 Loop ends after initial decrease:
-![Image of code ending after initial decrease] (https://www.picturepaste.ca/images/2020/06/10/image4cdb6c7b5fdb26e4.png)
+![Image of code ending after initial decrease](https://www.picturepaste.ca/images/2020/06/10/image4cdb6c7b5fdb26e4.png)
 Loop continues for all features (loop condition is in the while loop i.e while featureSet size != 
 num of features for forward selection and while featureSet size != 1 for backward elimination):
-![Image of code continuing for all features] (https://www.picturepaste.ca/images/2020/06/10/imagef31f7e8a98e0f97f.png)
+![Image of code continuing for all features](https://www.picturepaste.ca/images/2020/06/10/imagef31f7e8a98e0f97f.png)
 
 #### Trace of personal small dataset (loop continues for all features) on Forward Selection:
-![Trace of personal small dataset on FS 1] (https://www.picturepaste.ca/images/2020/06/10/image85a206ef27f22c02.png)
-![Trace of personal small dataset on FS 2] (https://www.picturepaste.ca/images/2020/06/10/image062a5e3872dd6aa4.png)
-![Trace of personal small dataset on FS 3] (https://www.picturepaste.ca/images/2020/06/10/image222c6f34f1299b71.png)
+![Trace of personal small dataset on FS 1](https://www.picturepaste.ca/images/2020/06/10/image85a206ef27f22c02.png)
+![Trace of personal small dataset on FS 2](https://www.picturepaste.ca/images/2020/06/10/image062a5e3872dd6aa4.png)
+![Trace of personal small dataset on FS 3](https://www.picturepaste.ca/images/2020/06/10/image222c6f34f1299b71.png)
 
 #### Trace of personal small dataset (loop continues for all features) on Backward Elimination:
-![Trace of personal small dataset on BE 1] (https://www.picturepaste.ca/images/2020/06/10/imagea0adfe959cd340b3.png)
-![Trace of personal small dataset on BE 2] (https://www.picturepaste.ca/images/2020/06/10/imaged3452d2af3107948.png)
-![Trace of personal small dataset on BE 3] (https://www.picturepaste.ca/images/2020/06/10/imagee17e366db904442a.png)
+![Trace of personal small dataset on BE 1](https://www.picturepaste.ca/images/2020/06/10/imagea0adfe959cd340b3.png)
+![Trace of personal small dataset on BE 2](https://www.picturepaste.ca/images/2020/06/10/imaged3452d2af3107948.png)
+![Trace of personal small dataset on BE 3](https://www.picturepaste.ca/images/2020/06/10/imagee17e366db904442a.png)
 
 
 
