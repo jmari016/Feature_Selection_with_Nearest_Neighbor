@@ -1,8 +1,8 @@
-# Feature_Selection_with_Nearest_Neighbor
+# Feature Selection with Nearest Neighbor
 The program uses the nearest neighbor classifier inside a "wrapper" which searches for the best subset of features.
 
 ### Introduction
-    The goal for Project #2 for CS170 was to utilize the nearest neighbor classifier to search 
+The goal for Project #2 for CS170 was to utilize the nearest neighbor classifier to search 
 through a dataset and find the best combination of features for classification. In the assignment, 
 we had to implement the nearest neighbor classifier, the leave-one-out validator, and the two 
 search algorithms: forward selection and backward elimination. The project was coded in C++ 
@@ -19,7 +19,8 @@ eliminate the need to manually search through the container if the feature being
 exists. Although the set still does this check, it is completed much faster as a set is implemented 
 using a binary search tree. However, a tradeoff is that its insertion is not as fast as a vector 
 (push_back).
-	  Another important thing to point out is that I had two different cases for when the search 
+
+Another important thing to point out is that I had two different cases for when the search 
 algorithm ends: One where the search continues until no more features can be added/removed 
 from the set and the other where it ends after the first initial decrease of accuracy. For the second 
 type of search stop, the search would conduct one more level of the search to see if there is a 
