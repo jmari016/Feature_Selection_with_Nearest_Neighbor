@@ -30,7 +30,7 @@ a distinction between how the search algorithm stops.
 
 ### Results
 ![Image of results table when search continues for all features](https://www.picturepaste.ca/images/2020/06/10/1.png)
-![Image of results table when search ends after intitial decrease](https://www.picturepaste.ca/images/2020/06/10/image1dc824fbb9cab123.png)
+![Image of results table when search ends after intitial decrease](https://www.picturepaste.ca/images/2020/06/10/121.png)
     When I was running my code, I noticed that the time differences between the forward 
 selection and backward elimination search algorithms were very minimal for the small datasets.
 ![Image of runtime of small datasets. Search continues for all features](https://www.picturepaste.ca/images/2020/06/10/imagec8f4b8c3a95ffb51.png)
