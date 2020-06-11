@@ -1,10 +1,8 @@
 # Feature Selection with Nearest Neighbor
 The program uses the nearest neighbor classifier inside a "wrapper" which searches for the best subset of features.
 
-University of California, Riverside
-
-CS170: Introduction to Artificial Intelligence 
-
+University of California, Riverside  
+CS170: Introduction to Artificial Intelligence  
 Professor Niloofar Montazeri
 
 ### Introduction
