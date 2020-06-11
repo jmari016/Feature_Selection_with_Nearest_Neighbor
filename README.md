@@ -29,14 +29,18 @@ search would continue normally until the next decrease in accuracy. In the graph
 a distinction between how the search algorithm stops.
 
 ### Results
-![Image of results table when search continues for all features](https://www.picturepaste.ca/images/2020/06/10/1.png)
-![Image of results table when search ends after intitial decrease](https://www.picturepaste.ca/images/2020/06/10/121.png)
+![Image of results table when search continues for all features](https://www.picturepaste.ca/images/2020/06/10/45.png)
+![Image of results table when search ends after intitial decrease](https://www.picturepaste.ca/images/2020/06/10/4844.png)
+
     When I was running my code, I noticed that the time differences between the forward 
 selection and backward elimination search algorithms were very minimal for the small datasets.
+
 ![Image of runtime of small datasets. Search continues for all features](https://www.picturepaste.ca/images/2020/06/10/imagec8f4b8c3a95ffb51.png)
 ![Image of runtime of small datasets. Search ends after initial decrease.](https://www.picturepaste.ca/images/2020/06/10/image7a79dfc8348038a8.png)
+
 	  However, the runtime differences between the two search algorithms were much more 
 noticeable for the large datasets.
+
 ![Image of runtime of large datasets. Search continues for all features](https://www.picturepaste.ca/images/2020/06/10/image334c5b1443f3e750.png)
 ![Image of runtime of large datasets. Search ends after intitial decrease](https://www.picturepaste.ca/images/2020/06/10/imageae0a2ea0b98bdf23.png)
     As shown, the runtime when the search algorithm ends after the initial decrease in 
