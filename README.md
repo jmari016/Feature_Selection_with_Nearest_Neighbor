@@ -72,14 +72,14 @@ num of features for forward selection and while featureSet size != 1 for backwar
 ![Image of code continuing for all features](https://www.picturepaste.ca/images/2020/06/10/684321.png)
 
 #### Trace of personal small dataset (loop continues for all features) on Forward Selection:
-![Trace of personal small dataset on FS 1](https://www.picturepaste.ca/images/2020/06/10/7842421896.png)\
-![Trace of personal small dataset on FS 2](https://www.picturepaste.ca/images/2020/06/10/652324.png)\
-![Trace of personal small dataset on FS 3](https://www.picturepaste.ca/images/2020/06/10/484635.png)\
+![Trace of personal small dataset on FS 1](https://www.picturepaste.ca/images/2020/06/10/7842421896.png)
+![Trace of personal small dataset on FS 2](https://www.picturepaste.ca/images/2020/06/10/652324.png)
+![Trace of personal small dataset on FS 3](https://www.picturepaste.ca/images/2020/06/10/484635.png)
 
 #### Trace of personal small dataset (loop continues for all features) on Backward Elimination:
-![Trace of personal small dataset on BE 1](https://www.picturepaste.ca/images/2020/06/10/36442.png)\
-![Trace of personal small dataset on BE 2](https://www.picturepaste.ca/images/2020/06/10/4520.png)\
-![Trace of personal small dataset on BE 3](https://www.picturepaste.ca/images/2020/06/10/752323.png)\
+![Trace of personal small dataset on BE 1](https://www.picturepaste.ca/images/2020/06/10/36442.png)
+![Trace of personal small dataset on BE 2](https://www.picturepaste.ca/images/2020/06/10/4520.png)
+![Trace of personal small dataset on BE 3](https://www.picturepaste.ca/images/2020/06/10/752323.png)
 
 
 
