@@ -32,18 +32,22 @@ a distinction between how the search algorithm stops.
 ![Image of results table when search continues for all features](https://www.picturepaste.ca/images/2020/06/10/45.png)
 ![Image of results table when search ends after intitial decrease](https://www.picturepaste.ca/images/2020/06/10/4844.png)
 
-    When I was running my code, I noticed that the time differences between the forward 
+When I was running my code, I noticed that the time differences between the forward 
 selection and backward elimination search algorithms were very minimal for the small datasets.
 
-![Image of runtime of small datasets. Search continues for all features](https://www.picturepaste.ca/images/2020/06/10/imagec8f4b8c3a95ffb51.png)
-![Image of runtime of small datasets. Search ends after initial decrease.](https://www.picturepaste.ca/images/2020/06/10/image7a79dfc8348038a8.png)
+![Image of runtime of small datasets. Search continues for all features](https://www.picturepaste.ca/images/2020/06/10/7812225.png)
 
-	  However, the runtime differences between the two search algorithms were much more 
+![Image of runtime of small datasets. Search ends after initial decrease.](https://www.picturepaste.ca/images/2020/06/10/124656.png)
+
+However, the runtime differences between the two search algorithms were much more 
 noticeable for the large datasets.
 
-![Image of runtime of large datasets. Search continues for all features](https://www.picturepaste.ca/images/2020/06/10/image334c5b1443f3e750.png)
+![Image of runtime of large datasets. Search continues for all features](https://www.picturepaste.ca/images/2020/06/10/78725445.png)
+
 ![Image of runtime of large datasets. Search ends after intitial decrease](https://www.picturepaste.ca/images/2020/06/10/imageae0a2ea0b98bdf23.png)
-    As shown, the runtime when the search algorithm ends after the initial decrease in 
+
+
+As shown, the runtime when the search algorithm ends after the initial decrease in 
 percentage is much faster than the same dataset, with the same algorithm but when the search 
 continues for all features. Although stopping the search algorithm on the first initial decrease is 
 much faster than continuing for all features, the trade off is that it might not produce the best 
@@ -54,12 +58,17 @@ search algorithm but through all the features, the highest accuracy found was 84
 runtime of 5 hrs, 8 mins, and 45 secs. Another thing to note from the table is that forward 
 selection tends to find the highest accuracy faster, and with the least number of features. 
 Therefore, I believe forward selection produces better results overall. 
-	  Changing the stopping condition of the loop is simple and is shown accordingly below 
+	  
+Changing the stopping condition of the loop is simple and is shown accordingly below 
 (code shown from domain.cpp and applies for both search algorithms).
+
 Loop ends after initial decrease:
+
 ![Image of code ending after initial decrease](https://www.picturepaste.ca/images/2020/06/10/image4cdb6c7b5fdb26e4.png)
+
 Loop continues for all features (loop condition is in the while loop i.e while featureSet size != 
 num of features for forward selection and while featureSet size != 1 for backward elimination):
+
 ![Image of code continuing for all features](https://www.picturepaste.ca/images/2020/06/10/imagef31f7e8a98e0f97f.png)
 
 #### Trace of personal small dataset (loop continues for all features) on Forward Selection:
