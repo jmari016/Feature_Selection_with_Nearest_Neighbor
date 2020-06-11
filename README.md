@@ -5,7 +5,7 @@ University of California, Riverside
 CS170: Introduction to Artificial Intelligence  
 Professor Niloofar Montazeri
 
-### Introduction
+### *Introduction*
 The goal for Project #2 for CS170 was to utilize the nearest neighbor classifier to search 
 through a dataset and find the best combination of features for classification. We were 
 given 4 different datasets to work with: A small and large dataset given to the entire 
@@ -34,7 +34,7 @@ local maxima. If a local maxima is found, then the highest accuracy would be upd
 search would continue normally until the next decrease in accuracy. In the graphs below, I make 
 a distinction between how the search algorithm stops.
 
-### Results
+### *Results*
 ![Image of results table when search continues for all features](https://www.picturepaste.ca/images/2020/06/10/45.png)
 ![Image of results table when search ends after intitial decrease](https://www.picturepaste.ca/images/2020/06/10/4844.png)
 
@@ -77,12 +77,12 @@ num of features for forward selection and while featureSet size != 1 for backwar
 
 ![Image of code continuing for all features](https://www.picturepaste.ca/images/2020/06/10/684321.png)
 
-#### Trace of personal small dataset (loop continues for all features) on Forward Selection:
+#### *Trace of personal small dataset (loop continues for all features) on Forward Selection:*
 ![Trace of personal small dataset on FS 1](https://www.picturepaste.ca/images/2020/06/10/7842421896.png)
 ![Trace of personal small dataset on FS 2](https://www.picturepaste.ca/images/2020/06/10/652324.png)
 ![Trace of personal small dataset on FS 3](https://www.picturepaste.ca/images/2020/06/10/484635.png)
 
-#### Trace of personal small dataset (loop continues for all features) on Backward Elimination:
+#### *Trace of personal small dataset (loop continues for all features) on Backward Elimination:*
 ![Trace of personal small dataset on BE 1](https://www.picturepaste.ca/images/2020/06/10/36442.png)
 ![Trace of personal small dataset on BE 2](https://www.picturepaste.ca/images/2020/06/10/4520.png)
 ![Trace of personal small dataset on BE 3](https://www.picturepaste.ca/images/2020/06/10/752323.png)
