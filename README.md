@@ -96,6 +96,7 @@ I consulted the following sources during the creation of this project:
 * [Find average of input to vector C++](https://stackoverflow.com/questions/28574346/find-average-of-input-to-vector-c/28574413)
 * [Calculate mean and standard deviation from a vector of samples in C++ using Boost](https://stackoverflow.com/questions/7616511/calculate-mean-and-standard-deviation-from-a-vector-of-samples-in-c-using-boos)
 * [Three Dimensional Distance Calculator](https://www.calculatorsoup.com/calculators/geometry-solids/distance-two-points.php)  
+
 Borrowed code:  
 * [C++ || Convert Time From Seconds Into Hours, Min, Sec Format](http://www.programmingnotes.org/?p=2062)
 * [Measure execution time of a function in C++](https://www.geeksforgeeks.org/measure-execution-time-function-cpp/)
