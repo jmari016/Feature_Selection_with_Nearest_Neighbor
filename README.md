@@ -44,7 +44,7 @@ noticeable for the large datasets.
 
 ![Image of runtime of large datasets. Search continues for all features](https://www.picturepaste.ca/images/2020/06/10/78725445.png)
 
-![Image of runtime of large datasets. Search ends after intitial decrease](https://www.picturepaste.ca/images/2020/06/10/imageae0a2ea0b98bdf23.png)
+![Image of runtime of large datasets. Search ends after intitial decrease](https://www.picturepaste.ca/images/2020/06/10/35657f57808e44c955.png)
 
 
 As shown, the runtime when the search algorithm ends after the initial decrease in 
@@ -64,22 +64,22 @@ Changing the stopping condition of the loop is simple and is shown accordingly b
 
 Loop ends after initial decrease:
 
-![Image of code ending after initial decrease](https://www.picturepaste.ca/images/2020/06/10/image4cdb6c7b5fdb26e4.png)
+![Image of code ending after initial decrease](https://www.picturepaste.ca/images/2020/06/10/4218240b517d7726b6b9.png)
 
 Loop continues for all features (loop condition is in the while loop i.e while featureSet size != 
 num of features for forward selection and while featureSet size != 1 for backward elimination):
 
-![Image of code continuing for all features](https://www.picturepaste.ca/images/2020/06/10/imagef31f7e8a98e0f97f.png)
+![Image of code continuing for all features](https://www.picturepaste.ca/images/2020/06/10/684321.png)
 
 #### Trace of personal small dataset (loop continues for all features) on Forward Selection:
-![Trace of personal small dataset on FS 1](https://www.picturepaste.ca/images/2020/06/10/image85a206ef27f22c02.png)
-![Trace of personal small dataset on FS 2](https://www.picturepaste.ca/images/2020/06/10/image062a5e3872dd6aa4.png)
-![Trace of personal small dataset on FS 3](https://www.picturepaste.ca/images/2020/06/10/image222c6f34f1299b71.png)
+![Trace of personal small dataset on FS 1](https://www.picturepaste.ca/images/2020/06/10/7842421896.png)\
+![Trace of personal small dataset on FS 2](https://www.picturepaste.ca/images/2020/06/10/652324.png)\
+![Trace of personal small dataset on FS 3](https://www.picturepaste.ca/images/2020/06/10/484635.png)\
 
 #### Trace of personal small dataset (loop continues for all features) on Backward Elimination:
-![Trace of personal small dataset on BE 1](https://www.picturepaste.ca/images/2020/06/10/imagea0adfe959cd340b3.png)
-![Trace of personal small dataset on BE 2](https://www.picturepaste.ca/images/2020/06/10/imaged3452d2af3107948.png)
-![Trace of personal small dataset on BE 3](https://www.picturepaste.ca/images/2020/06/10/imagee17e366db904442a.png)
+![Trace of personal small dataset on BE 1](https://www.picturepaste.ca/images/2020/06/10/36442.png)\
+![Trace of personal small dataset on BE 2](https://www.picturepaste.ca/images/2020/06/10/4520.png)\
+![Trace of personal small dataset on BE 3](https://www.picturepaste.ca/images/2020/06/10/752323.png)\
 
 
 
