@@ -1,9 +1,17 @@
 # Feature Selection with Nearest Neighbor
 The program uses the nearest neighbor classifier inside a "wrapper" which searches for the best subset of features.
 
+University of California, Riverside
+
+CS170: Introduction to Artificial Intelligence 
+
+Professor Niloofar Montazeri
+
 ### Introduction
 The goal for Project #2 for CS170 was to utilize the nearest neighbor classifier to search 
-through a dataset and find the best combination of features for classification. In the assignment, 
+through a dataset and find the best combination of features for classification. We were 
+given 4 different datasets to work with: A small and large dataset given to the entire 
+class and a small and large dataset that was unique for every student. In the assignment, 
 we had to implement the nearest neighbor classifier, the leave-one-out validator, and the two 
 search algorithms: forward selection and backward elimination. The project was coded in C++ 
 and was organized using object-oriented programming. The class Domain would be the object 
