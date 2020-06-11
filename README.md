@@ -77,17 +77,28 @@ num of features for forward selection and while featureSet size != 1 for backwar
 
 ![Image of code continuing for all features](https://www.picturepaste.ca/images/2020/06/10/684321.png)
 
-#### *Trace of personal small dataset (loop continues for all features) on Forward Selection:*
+### *Trace of personal small dataset (loop continues for all features) on Forward Selection:*
 ![Trace of personal small dataset on FS 1](https://www.picturepaste.ca/images/2020/06/10/7842421896.png)
 ![Trace of personal small dataset on FS 2](https://www.picturepaste.ca/images/2020/06/10/652324.png)
 ![Trace of personal small dataset on FS 3](https://www.picturepaste.ca/images/2020/06/10/484635.png)
 
-#### *Trace of personal small dataset (loop continues for all features) on Backward Elimination:*
+### *Trace of personal small dataset (loop continues for all features) on Backward Elimination:*
 ![Trace of personal small dataset on BE 1](https://www.picturepaste.ca/images/2020/06/10/36442.png)
 ![Trace of personal small dataset on BE 2](https://www.picturepaste.ca/images/2020/06/10/4520.png)
 ![Trace of personal small dataset on BE 3](https://www.picturepaste.ca/images/2020/06/10/752323.png)
 
-
+### *Resources:*  
+I consulted the following sources during the creation of this project:
+* [Standardization Vs Normalization- Feature Scaling](https://www.youtube.com/watch?v=mnKm3YP56PY)
+* [Data Normalization in Data Mining](https://www.geeksforgeeks.org/data-normalization-in-data-mining/)
+* [Splitting int from a string](https://stackoverflow.com/questions/3421817/splitting-int-from-a-string)
+* [Read integers from a text file with C++ ifstream](https://www.tutorialspoint.com/read-integers-from-a-text-file-with-cplusplus-ifstream)
+* [Find average of input to vector C++](https://stackoverflow.com/questions/28574346/find-average-of-input-to-vector-c/28574413)
+* [Calculate mean and standard deviation from a vector of samples in C++ using Boost](https://stackoverflow.com/questions/7616511/calculate-mean-and-standard-deviation-from-a-vector-of-samples-in-c-using-boos)
+* [Three Dimensional Distance Calculator](https://www.calculatorsoup.com/calculators/geometry-solids/distance-two-points.php)  
+Borrowed code:  
+* [C++ || Convert Time From Seconds Into Hours, Min, Sec Format](http://www.programmingnotes.org/?p=2062)
+* [Measure execution time of a function in C++](https://www.geeksforgeeks.org/measure-execution-time-function-cpp/)
 
 
 
