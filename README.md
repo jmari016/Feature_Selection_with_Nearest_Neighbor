@@ -35,22 +35,22 @@ search would continue normally until the next decrease in accuracy. In the graph
 a distinction between how the search algorithm stops.
 
 ### *Results*
-![Image of results table when search continues for all features](https://www.picturepaste.ca/images/2020/06/10/45.png)
-![Image of results table when search ends after intitial decrease](https://www.picturepaste.ca/images/2020/06/10/4844.png)
+[![45.png](https://i.postimg.cc/C14mdvx2/45.png)](https://postimg.cc/2bV4K7vd)
+[![4844.png](https://i.postimg.cc/Qdp5XFt4/4844.png)](https://postimg.cc/Jsztx4jZ)
 
 When I was running my code, I noticed that the time differences between the forward 
 selection and backward elimination search algorithms were very minimal for the small datasets.
 
-![Image of runtime of small datasets. Search continues for all features](https://www.picturepaste.ca/images/2020/06/10/7812225.png)
+[![7812225.png](https://i.postimg.cc/2ysbYYfN/7812225.png)](https://postimg.cc/N2xf8WMd)
 
-![Image of runtime of small datasets. Search ends after initial decrease.](https://www.picturepaste.ca/images/2020/06/10/124656.png)
+[![124656.png](https://i.postimg.cc/263VBykf/124656.png)](https://postimg.cc/Q9GX2XK6)
 
 However, the runtime differences between the two search algorithms were much more 
 noticeable for the large datasets.
 
-![Image of runtime of large datasets. Search continues for all features](https://www.picturepaste.ca/images/2020/06/10/78725445.png)
+[![78725445.png](https://i.postimg.cc/BvbDf48t/78725445.png)](https://postimg.cc/7Cvbgvny)
 
-![Image of runtime of large datasets. Search ends after intitial decrease](https://www.picturepaste.ca/images/2020/06/10/35657f57808e44c955.png)
+[![35.png](https://i.postimg.cc/3JhvJgys/35.png)](https://postimg.cc/JtTnpH5x)
 
 
 As shown, the runtime when the search algorithm ends after the initial decrease in 
@@ -70,22 +70,22 @@ Changing the stopping condition of the loop is simple and is shown accordingly b
 
 Loop ends after initial decrease:
 
-![Image of code ending after initial decrease](https://www.picturepaste.ca/images/2020/06/10/4218240b517d7726b6b9.png)
+[![4218.png](https://i.postimg.cc/DwZm857M/4218.png)](https://postimg.cc/crpdzRgR)
 
 Loop continues for all features (loop condition is in the while loop i.e while featureSet size != 
 num of features for forward selection and while featureSet size != 1 for backward elimination):
 
-![Image of code continuing for all features](https://www.picturepaste.ca/images/2020/06/10/684321.png)
+[![684321.png](https://i.postimg.cc/SxvR88sN/684321.png)](https://postimg.cc/rD5q2Dxv)
 
 ### *Trace of personal small dataset (loop continues for all features) on Forward Selection:*
-![Trace of personal small dataset on FS 1](https://www.picturepaste.ca/images/2020/06/10/7842421896.png)
-![Trace of personal small dataset on FS 2](https://www.picturepaste.ca/images/2020/06/10/652324.png)
-![Trace of personal small dataset on FS 3](https://www.picturepaste.ca/images/2020/06/10/484635.png)
+[![7842421896.png](https://i.postimg.cc/tCR4MDn4/7842421896.png)](https://postimg.cc/nM5xs41y)
+[![652324.png](https://i.postimg.cc/cLr4sHmq/652324.png)](https://postimg.cc/0z1qn9FZ)
+[![484635.png](https://i.postimg.cc/63wXG5dp/484635.png)](https://postimg.cc/qtmYPrbP)
 
 ### *Trace of personal small dataset (loop continues for all features) on Backward Elimination:*
-![Trace of personal small dataset on BE 1](https://www.picturepaste.ca/images/2020/06/10/36442.png)
-![Trace of personal small dataset on BE 2](https://www.picturepaste.ca/images/2020/06/10/4520.png)
-![Trace of personal small dataset on BE 3](https://www.picturepaste.ca/images/2020/06/10/752323.png)
+[![36442.png](https://i.postimg.cc/L58FNCQd/36442.png)](https://postimg.cc/wyZrBVdF)
+[![4520.png](https://i.postimg.cc/Y0DKV6Tv/4520.png)](https://postimg.cc/GTD5TyLR)
+[![752323.png](https://i.postimg.cc/Y2dHh7jt/752323.png)](https://postimg.cc/NL2VzW1n)
 
 ### *Resources:*  
 I consulted the following sources during the creation of this project:
